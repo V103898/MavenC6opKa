@@ -7,6 +7,12 @@
     <groupId>org.example</groupId>
     <artifactId>MavenC6opKa</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>db</module>
+        <module>api</module>
+        <module>service</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>23</maven.compiler.source>
@@ -15,10 +21,4 @@
     </properties>
 
 </project>
-<packaging>pom</packaging>
 
-<modules>
-    <module>db</module>
-    <module>api</module>
-    <module>service</module>
-  </modules> 
